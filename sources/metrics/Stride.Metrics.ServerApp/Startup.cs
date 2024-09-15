@@ -1,6 +1,5 @@
-﻿using Microsoft.Owin;
+using Microsoft.Owin;
 using Owin;
-using Stride.Metrics.ServerApp;
 
 [assembly: OwinStartup(typeof(Stride.Metrics.ServerApp.Startup))]
 

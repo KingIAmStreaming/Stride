@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.0.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 16.0.0.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpBeginner.Windows", "CSharpBeginner\CSharpBeginner.Windows\CSharpBeginner.Windows.csproj", "{24272B11-2C32-4380-A220-8CEC19311DAE}"
 EndProject
@@ -18,10 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypingBlocks", "Protot
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpBeginner", "CSharpBeginner", "{6C0E4C34-E917-4813-BAE7-8045C794AF93}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mannequinModel", "..\..\Templates\Packs\mannequinModel\mannequinModel.csproj", "{C67E53CE-706D-4830-8F17-5F6A46DA2CBF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypingBlocks", "..\..\Templates\Packs\PrototypingBlocks\PrototypingBlocks.csproj", "{2B4D48B7-DDD5-498E-9D5B-6F5C72792F0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamplesAssetPackage", "..\..\Templates\Packs\SamplesAssetPackage\SamplesAssetPackage.csproj", "{AC86952F-4671-4E55-BC45-24B3D1D5D6AD}"
 EndProject
@@ -44,14 +39,6 @@ Global
 		{3E6CE5BD-34D1-4249-BFDF-833697807E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6CE5BD-34D1-4249-BFDF-833697807E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6CE5BD-34D1-4249-BFDF-833697807E14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C67E53CE-706D-4830-8F17-5F6A46DA2CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C67E53CE-706D-4830-8F17-5F6A46DA2CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C67E53CE-706D-4830-8F17-5F6A46DA2CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C67E53CE-706D-4830-8F17-5F6A46DA2CBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B4D48B7-DDD5-498E-9D5B-6F5C72792F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B4D48B7-DDD5-498E-9D5B-6F5C72792F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B4D48B7-DDD5-498E-9D5B-6F5C72792F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B4D48B7-DDD5-498E-9D5B-6F5C72792F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC86952F-4671-4E55-BC45-24B3D1D5D6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC86952F-4671-4E55-BC45-24B3D1D5D6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC86952F-4671-4E55-BC45-24B3D1D5D6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU

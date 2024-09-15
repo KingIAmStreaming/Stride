@@ -8,12 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20-StrideRuntime", "20-Stri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Targets.Private", "00-Targets.Private", "{97978864-95DD-43A6-9159-AA1C881BE99F}"
 	ProjectSection(SolutionItems) = preProject
-		..\sources\native\Stride.Native.targets = ..\sources\native\Stride.Native.targets
 		..\sources\targets\Stride.Core.PostSettings.Dependencies.targets = ..\sources\targets\Stride.Core.PostSettings.Dependencies.targets
 		..\sources\targets\Stride.Core.props = ..\sources\targets\Stride.Core.props
 		..\sources\targets\Stride.Core.targets = ..\sources\targets\Stride.Core.targets
 		..\sources\targets\Stride.GraphicsApi.Dev.targets = ..\sources\targets\Stride.GraphicsApi.Dev.targets
 		..\sources\targets\Stride.GraphicsApi.PackageReference.targets = ..\sources\targets\Stride.GraphicsApi.PackageReference.targets
+		..\sources\native\Stride.Native.targets = ..\sources\native\Stride.Native.targets
 		..\sources\targets\Stride.PackageVersion.targets = ..\sources\targets\Stride.PackageVersion.targets
 		..\sources\targets\Stride.props = ..\sources\targets\Stride.props
 		..\sources\targets\Stride.targets = ..\sources\targets\Stride.targets
@@ -131,12 +131,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stride.Rendering", "..\sources\engine\Stride.Rendering\Stride.Rendering.csproj", "{AD4FDC24-B64D-4ED7-91AA-62C9EDA12FA4}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{b33e576f-2279-4bfc-a438-d9b84343b56b}*SharedItemsImports = 13
-		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{c121a566-555e-42b9-9b0a-1696529a9088}*SharedItemsImports = 4
-		..\sources\shared\Stride.Core.ShellHelper\Stride.Core.ShellHelper.projitems*{e8b3553f-a79f-4e50-b75b-acee771c320c}*SharedItemsImports = 4
-		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{fb06c76a-6bb7-40be-9afa-fec13b045fb5}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhone = Debug|iPhone
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -481,5 +475,11 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF877973-604D-4EA7-B5F5-A129961F9EF2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{b33e576f-2279-4bfc-a438-d9b84343b56b}*SharedItemsImports = 13
+		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{c121a566-555e-42b9-9b0a-1696529a9088}*SharedItemsImports = 5
+		..\sources\shared\Stride.Core.ShellHelper\Stride.Core.ShellHelper.projitems*{e8b3553f-a79f-4e50-b75b-acee771c320c}*SharedItemsImports = 5
+		..\sources\engine\Stride.Shared\Refactor\Stride.Refactor.projitems*{fb06c76a-6bb7-40be-9afa-fec13b045fb5}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
